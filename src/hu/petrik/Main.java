@@ -1,8 +1,12 @@
 package hu.petrik;
 
+import hu.petrik.Exercise.TukorSzoEllenorzo;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        TukorSzoEllenorzo.Run("ALATT");
+
+        System.out.println(TukorSzoEllenorzo.isPalindromE("A cápa eledele apáca"));
     }
 }
